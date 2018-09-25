@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build src/markup/index.pug",
-    "serve": "parcel serve src/markup/index.pug"
+    "serve": "parcel serve src/markup/index.pug",
+    "build": "parcel build src/markup/index.pug"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.1.0",
