@@ -1,0 +1,11 @@
+extends layouts/default.pug
+block page
+  .content
+    .content.py-8.px-4
+      h2 A minimal boilerplate for using Parcel JS and tailwind 📦
+      p Fork the repo and create your own! 👍
+    img(src="../assets/images/kitty.jpg")
+    .py-8.flex.flex-wrap.-mx-1
+      each val in [1, 2, 3, 4, 5, 6]
+        .mb-2.px-2.md_w-1_2.lg_w-1_3
+          include components/card.pug

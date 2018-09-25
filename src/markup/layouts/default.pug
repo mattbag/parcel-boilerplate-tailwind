@@ -1,0 +1,17 @@
+include ../mixins/import.pug
+html(lang="en-us")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    title parcel-boilerplate-tailwind 📦
+    meta(name="viewport", content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1.0")
+    meta(name="description", content="minimal boilerplate with Parcel JS")
+    link(rel="stylesheet", href="../styles/master.css")
+  body.max-w-xl.mx-auto.p-4
+    include ../global/header.pug
+    block page
+    include ../global/footer.pug
+    script(src="../scripts/index.js")
+    script.
+      console.info(myPackage.greet('Parcel JS user'))
+
