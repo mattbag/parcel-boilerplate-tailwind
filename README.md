@@ -21,5 +21,6 @@ npm run serve
 ```
 
 ### Hints:
-- separator has been changed from ':' to '_' and '/' to '-' because pug.
+- separator has been changed from ':' to '_' and '/' to 'o' because of pug limitations.
+    a responsive width class becomes lg_w-1o3
 - because of css plugins, you'll will have to refresh/save master.css anytime you add a new class to the markup (you're css file will be incredibly small eventually)
